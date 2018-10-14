@@ -48,13 +48,7 @@ namespace CheckService2
                         Console.ResetColor();
                         break;
                     }
-                    //else if (sc.Status == ServiceControllerStatus.StopPending)
-                    //{
-                    //    Console.ForegroundColor = ConsoleColor.DarkRed;
-                    //    Console.WriteLine (DateTime.Now.ToString() + " " + ComputerName + " (" + sc.DisplayName + ")" + " Status = " + sc.Status);
-                    //    Console.ResetColor();
-                    //    break;
-                    //}
+
                     else
                     {
                         Console.ForegroundColor = ConsoleColor.Red;
