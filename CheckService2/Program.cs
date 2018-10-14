@@ -23,6 +23,7 @@ namespace CheckService2
                 GetService("Service2", "Server2");
                 GetService("Service3", "Server3");
                 GetService("Service4", "Server4");
+                GetService("Service4", "Server4");
             }
         }
 
